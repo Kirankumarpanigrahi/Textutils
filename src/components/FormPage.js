@@ -52,7 +52,7 @@ export default function FormPage(props) {
         ></textarea>
       </div>
       <button
-        className="btn btn-primary mx-1"
+        className="btn btn-primary mx-2 my-2"
         disabled={text.length === 0}
         onClick={handelUpClick}
       >
@@ -60,28 +60,28 @@ export default function FormPage(props) {
       </button>
       <button
         disabled={text.length === 0}
-        className="btn btn-primary mx-1"
+        className="btn btn-primary mx-2 my-2"
         onClick={handelLoClick}
       >
         Convert to LowerCase
       </button>
       <button
         disabled={text.length === 0}
-        className="btn btn-primary mx-1"
+        className="btn btn-primary mx-2 my-2"
         onClick={handelClear}
       >
         Clear
       </button>
       <button
         disabled={text.length === 0}
-        className="btn btn-primary mx-1"
+        className="btn btn-primary mx-2 my-2"
         onClick={handelCopy}
       >
         Copy Text
       </button>
       <button
         disabled={text.length === 0}
-        className="btn btn-primary mx-1"
+        className="btn btn-primary mx-2 my-2"
         onClick={handelRemoveSpace}
       >
         Remove extra spaces
